@@ -1,10 +1,22 @@
-<nav>
-    <div class="logo">
-
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="{% url 'home' %}" class="logo"> Vecksy Motor Dealers<em></em></a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li><a href="{% url 'home' %}" class="active">Home</a></li>
+                        <li><a href="{% url 'about' %}">About Us</a></li>
+                        <li><a href="{% url 'contact' %}">Contact</a></li> 
+                    </ul>        
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
     </div>
-    <div class="items">
-        <a href="{% url 'home' %}">HOME</a>
-        <a href="{% url 'about' %}">ABOUT</a>
-        <a href="{% url 'contact' %}">CONTACT</a>
-    </div>
-</nav>
+</header>
+<!-- ***** Header Area End ***** -->
