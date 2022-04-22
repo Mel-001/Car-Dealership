@@ -201,6 +201,10 @@ header
   box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
 }
 
+.nav{
+  background-color:#7a7a7a !important;
+} 
+
 .background-header .logo,
 .background-header .main-nav .nav li a {
   color: #232d39!important;
@@ -213,6 +217,9 @@ header
 .background-header .nav li a.active {
   color: #ed563b!important;
 }
+
+#982613
+#130101
 
 .header-area {
   position: absolute;
